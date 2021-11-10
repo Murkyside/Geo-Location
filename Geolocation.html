@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Geolocation</title>
+</head>
+<body>
+  <button id = "find-me">Show my location</button><br/>
+  <p id = "status"></p>
+  <a id = "map-link" target="_blank"></a>
+  <span class="dot" id = "position"></span>
+  <img src="Map.jpg" alt="world" width="500" height="300" style = "position: absolute;" id = "map">
+  <script src = 'functionality.js'></script>
+  <style>
+  .dot {
+    position:absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 5;
+  }
+  </style>
+</body>
+</html>
